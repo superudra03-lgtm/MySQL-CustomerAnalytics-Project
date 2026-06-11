@@ -8,8 +8,8 @@ Using the mini database, insert the sample data. This database is used to create
 
 2) Please create a call statement to show that your procedure works. 
 
-3) Perform the following SQL Data Control Language (DCL) activities: 
-a) Create a new user with the name “Isaac Asimov” at your local host and identify the user with the password “iRobot2016”. 
-b) Grant this user the privilege to SELECT and UPDATE the Customer table in the database that you have built. 
+3) Perform the following SQL Data Control Language (DCL) activities:
+a) Created a new user with the name “Isaac Asimov” to the local host and identify the user with the password “iRobot2016”. 
+b) Granted this user the privilege to SELECT and UPDATE the Customer table in the database. 
 
 c) As the third and final step, show that all privileges are properly granted.
