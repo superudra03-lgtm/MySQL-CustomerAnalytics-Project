@@ -1,1 +1,15 @@
-Company X’s Business Intelligence team is developing a web application. One of the features of this application is to categorize the company’s customers based on the sales volume (qty sold). The application developers reached out to you to develop a stored procedure, which the application can call upon request from the user. Based on your discussion with the developer, the logic for categorizing customer is as follows: IF Total Quantity Sold to a Customer < 30, THEN set the Customer Tier to “Low-tier” IF Total Quantity Sold to a Customer < 60, THEN set the Customer Tier to “Mid-tier” ELSE set the Customer Tier to “High-tier” 1) Develop a stored procedure with the name “custtier”, which generates the following information to the application: Customername, TotalQtySold, CustTier Using the mini database and insert the sample data. This database is used to create the  stored procedure. 2) Please create a call statement to show that your procedure works. 3) Perform the following SQL Data Control Language (DCL) activities: a) Create a new user with the name; “Isaac Asimov” at your local host and identify the user with the password “iRobot2016”. b) Grant this user the privilege to SELECT and UPDATE the Customer table in the database, which you have built. c) As the third and the final step, show that all privileges are properly granted.
+Company X's Business Intelligence team is developing a web application. One of the features of this application is categorizing the company‚Äôs customers by sales volume (qty sold). The application developers reached out to you to develop a stored procedure that the application can call on the user's request. 
+
+Based on your discussion with the developer, the logic for categorizing customers is as follows: 
+IF Total Quantity Sold to a Customer < 30, THEN set the Customer Tier to ‚ÄúLow-tier‚Äù IF Total Quantity Sold to a Customer < 60, THEN set the Customer Tier to ‚ÄúMid-tier‚Äù ELSE set the Customer Tier to ‚ÄúHigh-tier.‚Äù 
+
+1) Develop a stored procedure with the name ‚Äúcusttier‚Äù, which generates the following information to the application: Customername, TotalQtySold, CustTier 
+Using the mini database, insert the sample data. This database is used to create the  stored procedure. 
+
+2) Please create a call statement to show that your procedure works. 
+
+3) Perform the following SQL Data Control Language (DCL) activities: 
+a) Create a new user with the name ‚ÄúIsaac Asimov‚Äù at your local host and identify the user with the password ‚ÄúiRobot2016‚Äù. 
+b) Grant this user the privilege to SELECT and UPDATE the Customer table in the database that you have built. 
+
+c) As the third and final step, show that all privileges are properly granted.
